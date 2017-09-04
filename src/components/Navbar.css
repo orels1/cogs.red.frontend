@@ -1,0 +1,44 @@
+.Navbar {
+  box-shadow: 0 1px 3px rgba(0,0,0,.16);
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar__logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #575757;
+  margin: 0 20px;
+  padding: 0 0 0 50px;
+  background: url('/icon.png') left center no-repeat;
+}
+
+.Navbar__logo-link {
+  text-decoration: none;
+  color: #575757;
+}
+
+.Navbar__menu {
+  display: flex;
+  margin: 0 10px;
+}
+
+.Navbar__menu-link {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #575757;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 150ms ease;
+}
+
+.Navbar__menu-link:hover{
+  color: #F22020;
+}
+
+.Navbar__menu-link_active {
+  color: #F22020;
+}
